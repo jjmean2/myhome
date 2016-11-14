@@ -1,4 +1,7 @@
-### Ä¿¹Ô È÷½ºÅä¸®¿¡¼­ ÀÛ¼ºÀÚ(Author)³ª Ä¿¹ÌÅÍ(Committer)¸¦ ¹Ù²Ù°í ½ÍÀ» ¶§ 
+[Home](https://github.com/jjmean2/til) - [Git](https://github.com/jjmean2/til/tree/master/git) - [ì»¤ë°‹ íˆìŠ¤í† ë¦¬ì—ì„œ ì‘ì„±ì(Author)ë‚˜ ì»¤ë¯¸í„°(Committer)ë¥¼ ë°”ê¾¸ê³  ì‹¶ì„ ë•Œ](https://github.com/jjmean2/til/blob/master/git/git-to-change-author-of-commit-history.md)
+
+
+### ì»¤ë°‹ íˆìŠ¤í† ë¦¬ì—ì„œ ì‘ì„±ì(Author)ë‚˜ ì»¤ë¯¸í„°(Committer)ë¥¼ ë°”ê¾¸ê³  ì‹¶ì„ ë•Œ 
 
 ```
 git filter-branch --commit-filter \
@@ -11,9 +14,9 @@ fi;\
 git commit-tree "$@"'
 ```
 
-`filter-branch`´Â Ä¿¹Ô È÷½ºÅä¸®¸¦ ¹Ù²Ù´Â ¸í·É¾î (¸ğµç Ä¿¹ÔÀ» »õ·Î¿î Ä¿¹ÔÀ¸·Î ±³Ã¼ÇÑ´Ù.)ÀÌ¹Ç·Î remote¿¡ ÀÌ¹Ì Çª½ÃÇÑ °æ¿ì, ÀÌ¹Ì ´Ù¸¥ »ç¶÷°ú Ä¿¹ÔÀÌ °øÀ¯µÈ °æ¿ì´Â Á¶½ÉÇØ¼­ ÇØ¾ß ÇÑ´Ù. 
+`filter-branch`ëŠ” ì»¤ë°‹ íˆìŠ¤í† ë¦¬ë¥¼ ë°”ê¾¸ëŠ” ëª…ë ¹ì–´ (ëª¨ë“  ì»¤ë°‹ì„ ìƒˆë¡œìš´ ì»¤ë°‹ìœ¼ë¡œ êµì²´í•œë‹¤.)ì´ë¯€ë¡œ remoteì— ì´ë¯¸ í‘¸ì‹œí•œ ê²½ìš°, ì´ë¯¸ ë‹¤ë¥¸ ì‚¬ëŒê³¼ ì»¤ë°‹ì´ ê³µìœ ëœ ê²½ìš°ëŠ” ì¡°ì‹¬í•´ì„œ í•´ì•¼ í•œë‹¤. 
 
 
-### ÃâÃ³
+### ì¶œì²˜
 http://stackoverflow.com/questions/4493936/could-i-change-my-name-and-surname-in-all-previous-commits
 http://stackoverflow.com/questions/750172/change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-git
