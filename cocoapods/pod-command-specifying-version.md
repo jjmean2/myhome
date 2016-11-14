@@ -1,3 +1,5 @@
+> [Home](https://github.com/jjmean2/til) - [Cocoapods](https://github.com/jjmean2/til/tree/master/cocoapods) - [pod 명령어마다 Cocoapods 버전을 지정하여 실행하는 법](https://github.com/jjmean2/til/blob/master/cocoapods/pod-command-specifying-version.md)
+
 ### pod 명령어마다 Cocoapods 버전을 지정하여 실행하는 법
 pod 명령어를 실행시키는데 버전에 따라 에러가 나는 경우가 있었다. 
 예를 들어 Cocoapods을 1.1.0 버전으로 업데이트했는데, `pod init` 명령어가 에러를 내서 0.39 버전으로 다시 깔았는데 이번에는 `pod install` 명령어가 에러를 내는 일이 있었다. 그래서 이를 해결하기 위해 명령어마다 다른 버전의 Cocoapods을 이용하기로 했는데 이럴 때 사용할 수 있는 방법이다.
