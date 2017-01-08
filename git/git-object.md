@@ -43,6 +43,8 @@ $ git cat-file -p master^{tree}
 
 `master^{tree}`는 master 브랜치의 최신 커밋이 가리키는 tree object를 뜻한다.
 
+#### Commit Object
+commit object는 어떤 특정한 시점의 tree를 시간과 저장한 사람과 저장한 이유 등의 메터정보와 함께 저장하고 있는 object이다. commit object를 만들 때에는 하나의 tree와 부모 commit (바로 직전의 스냅샷)을 지정한다.
 
 
 
