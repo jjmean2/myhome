@@ -1,3 +1,6 @@
+> [Home](https://github.com/jjmean2/til) - [Git](https://github.com/jjmean2/til/tree/master/git) - [Git Objects](https://github.com/jjmean2/til/blob/master/git/git-object.md)
+
+
 ## Git Objects
 
 https://git-scm.com/book/en/v2/Git-Internals-Git-Objects 의 내용 나름의 정리.. 
