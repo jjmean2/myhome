@@ -34,7 +34,7 @@ UIViewController를 스토리보드로 만들 때는 Storyboard는 `init(nibName
 스토리보드로 구성된 ViewController는 Storyboard의 Segue로 생성하거나 `UIStoryboard` 객체의 `instantiateViewController(withIdentifier:)` 메소드로 생성할 수 있다. 이 때 생성되는 ViewController는 `init(coder:)` 초기화 메소드가 호출되고 `nibName` 속성에는 Storyboad 안에 있는 nib파일이 할당된다고 한다. 그래서 테스트를 해 봤다. Storyboard로 만든 ViewController의 `nibName` 속성을 디버거에서 런타임에 찍어봤더니 다음과 같은 값이 나왔다.
 
 ```sh
-(llvm) po self.nibName!
+(lldb) po self.nibName!
 "BYZ-38-t0r-view-8bC-Xf-vdC"
 ```
 
